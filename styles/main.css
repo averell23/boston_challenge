@@ -15,10 +15,21 @@ body {
 	height:30px;
 	padding:10px;
 	background-color:#ddd;
+	position:relative;
 }
 
 #logo {
 	height:30px;
+}
+
+#search {
+	width:200px;
+	float:right;
+}
+
+#login {
+	float:right;
+	margin:0 0 0 40px;
 }
 
 #lead {
