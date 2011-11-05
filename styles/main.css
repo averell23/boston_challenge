@@ -1,3 +1,8 @@
+body {
+	font: normal 100% Georgia,"Times New Roman",Times,serif;
+	color: #464646;
+}
+
 #iPadWindow {
 	width:1024px;
 	height:768px;
@@ -43,9 +48,9 @@
 }
 
 h1 {
-	font: bold 18px/21px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
-	letter-spacing: -0.05em;
-	margin-bottom: .3em;
+	font: bold 24px/27px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+	letter-spacing: 0.0em;
+	margin:0 0 10px 0;
 }
 
 #here {
