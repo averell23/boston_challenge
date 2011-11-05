@@ -43,7 +43,9 @@
 }
 
 h1 {
-	margin: 0 0 10px 0;
+	font: bold 18px/21px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+	letter-spacing: -0.05em;
+	margin-bottom: .3em;
 }
 
 #here {
