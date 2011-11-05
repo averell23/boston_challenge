@@ -1,0 +1,11 @@
+.swiper_section {
+  height:185px;
+  width:385px;
+  overflow:hidden;
+}
+.swiper_section article {
+  height:175px;
+  float:left;
+  width:200px;
+  font-size:10px;
+}
