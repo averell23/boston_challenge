@@ -1,12 +1,13 @@
 body {
 	font: normal 100% Georgia,"Times New Roman",Times,serif;
 	color: #464646;
+	margin:0;
+	padding:0;
 }
 
 #iPadWindow {
 	width:1024px;
 	height:768px;
-	border:1px solid black;
 	overflow:hidden;
 }
 
