@@ -5,9 +5,11 @@
 .swiper_section {
   margin-bottom:5px;
   width:10000px;
-  height:175px;
+  height:170px;
   overflow:hidden;
-  /*background-color:red;*/
+  border-top:1px solid #555;
+  border-bottom:1px solid #555;
+  background-color:#555;
 }
 .swiper_section h1 {
   display: none;
@@ -16,20 +18,20 @@
   margin-right:5px;
   height:160px;
   float:left;
-  width:155px;
+  width:165px;
   font-size:15px;
   /*background-color:blue;*/
-  background-color: #EEE;
+  background-color: #444;
+  color: white;
   padding: 5px;
 }
 
 .swiper_section article h2 {
   font-size: 15px;
+  margin: 0px 0 5px 0;
 }
 .swiper_section article img {
-  margin-left:10px;
-  margin-top:5px;
-  margin-bottom:-5px;
+  margin: 5px 0px 5px 10px;
   width:130px;
   height:110px;
 }
