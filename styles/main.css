@@ -1,6 +1,12 @@
+body {
+	font: normal 100% Georgia,"Times New Roman",Times,serif;
+	color: #464646;
+}
+
 #iPadWindow {
 	width:1024px;
 	height:768px;
+	border:1px solid black;
 	overflow:hidden;
 }
 
@@ -13,14 +19,14 @@
 #lead {
 	width:100%px;
 	height:330px;
-	background-color:#eee;
+	background-color:#fff;
 	position:relative;
 }
 
 #lead_article {
 	width:380px;
 	height:310px;
-	background-color:#ccf;
+	background-color:#fff;
 	position:absolute;
 	padding:10px;
 	top:0;
@@ -29,9 +35,10 @@
 
 #lead_article .imgPorthole {
 	width:100%;
-	height:250px;
+	height:200px;
 	position:relative;
 	overflow:hidden;
+	margin:0 0 10px 0;
 }
 
 #lead_article img {
@@ -40,18 +47,26 @@
 	width:100%;
 }
 
-#now {
-	width:400px;
-	height:165px;
+h1 {
+	font: bold 24px/27px "Miller Headline Bold", "Times New Roman", Times, Georgia, serif;
+	letter-spacing: 0.0em;
+	margin:0 0 10px 0;
+}
+
+#here {
+	width:380px;
+	height:145px;
+	padding:10px;
 	background-color:#cfc;
 	position:absolute;
 	top:0;
 	left:400px;
 }
 
-#here {
-	width:624px;
-	height:165px;
+#now {
+	width:604px;
+	height:145px;
+	padding:10px;
 	background-color:#ffc;
 	position:absolute;
 	bottom:0;
@@ -67,8 +82,18 @@
 	right:0;
 }
 
+#swiper_window {
+	background: #333;
+	color:white;
+}
+
 .newspaper_section {
 	background-color:#fcc;
 	border-top:1px solid black;
 	height:175px;
+}
+
+ul {
+	padding: 0;
+	list-style-position: inside;
 }
