@@ -1,6 +1,7 @@
 #iPadWindow {
 	width:1024px;
 	height:768px;
+	border:1px solid black;
 	overflow:hidden;
 }
 
@@ -13,14 +14,14 @@
 #lead {
 	width:100%px;
 	height:330px;
-	background-color:#eee;
+	background-color:#fff;
 	position:relative;
 }
 
 #lead_article {
 	width:380px;
 	height:310px;
-	background-color:#ccf;
+	background-color:#fff;
 	position:absolute;
 	padding:10px;
 	top:0;
@@ -41,13 +42,14 @@
 	width:100%;
 }
 
-#lead_article h1 {
+h1 {
 	margin: 0 0 10px 0;
 }
 
 #here {
-	width:400px;
-	height:165px;
+	width:380px;
+	height:145px;
+	padding:10px;
 	background-color:#cfc;
 	position:absolute;
 	top:0;
@@ -55,8 +57,9 @@
 }
 
 #now {
-	width:624px;
-	height:165px;
+	width:604px;
+	height:145px;
+	padding:10px;
 	background-color:#ffc;
 	position:absolute;
 	bottom:0;
@@ -72,8 +75,18 @@
 	right:0;
 }
 
+#swiper_window {
+	background: #333;
+	color:white;
+}
+
 .newspaper_section {
 	background-color:#fcc;
 	border-top:1px solid black;
 	height:175px;
+}
+
+ul {
+	padding: 0;
+	list-style-position: inside;
 }
