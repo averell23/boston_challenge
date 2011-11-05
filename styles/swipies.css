@@ -1,11 +1,35 @@
-.swiper_section {
-  height:185px;
-  width:385px;
+#swiper_window {
+  width:1024px;
   overflow:hidden;
 }
-.swiper_section article {
+.swiper_section {
+  margin-bottom:5px;
+  width:10000px;
   height:175px;
+  overflow:hidden;
+  /*background-color:red;*/
+}
+.swiper_section h1 {
+  display: none;
+}
+.swiper_section article {
+  margin-right:5px;
+  height:160px;
   float:left;
-  width:200px;
-  font-size:10px;
+  width:155px;
+  font-size:15px;
+  /*background-color:blue;*/
+  background-color: #EEE;
+  padding: 5px;
+}
+
+.swiper_section article h2 {
+  font-size: 15px;
+}
+.swiper_section article img {
+  margin-left:10px;
+  margin-top:5px;
+  margin-bottom:-5px;
+  width:130px;
+  height:110px;
 }
