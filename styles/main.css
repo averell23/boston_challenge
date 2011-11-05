@@ -70,12 +70,13 @@ h1 {
 }
 
 #here {
-	width:380px;
+	width:370px;
 	height:145px;
 	padding:10px;
-	background-color:#cfc;
+	background-color:#fff;
 	position:absolute;
 	top:0;
+	border-bottom:1px solid #ddd;
 	left:400px;
 }
 
@@ -83,19 +84,19 @@ h1 {
 	width:604px;
 	height:145px;
 	padding:10px;
-	background-color:#ffc;
+	background-color:#fff;
 	position:absolute;
 	bottom:0;
 	right:0;
 }
 
 .main_ad {
-	width:224px;
-	height:165px;
-	background-color:#555;
+	width:214px;
+	height:155px;
+	background-color:#ccc;
 	position:absolute;
-	top:0;
-	right:0;
+	top:10px;
+	right:10px;
 }
 
 #swiper_window {
