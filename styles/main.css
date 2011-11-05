@@ -1,5 +1,9 @@
 #masthead {
+<<<<<<< Updated upstream
   width:100%;
+=======
+	width:100%;
+>>>>>>> Stashed changes
 	height:50px;
 	background-color:#ddd;
 }
@@ -12,14 +16,38 @@
 }
 
 #lead_article {
+<<<<<<< Updated upstream
 	width:400px;
 	height:330px;
 	background-color:#ccf;
 	position:absolute;
+=======
+	width:380px;
+	height:310px;
+	background-color:#ccf;
+	position:absolute;
+	padding:10px;
+>>>>>>> Stashed changes
 	top:0;
 	left:0;
 }
 
+<<<<<<< Updated upstream
+=======
+#lead_article .imgPorthole {
+	width:100%;
+	height:250px;
+	position:relative;
+	overflow:hidden;
+}
+
+#lead_article img {
+	position:relative;
+	top:-20px;
+	width:100%;
+}
+
+>>>>>>> Stashed changes
 #now {
 	width:400px;
 	height:165px;
