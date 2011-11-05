@@ -45,7 +45,7 @@
 	margin: 0 0 10px 0;
 }
 
-#now {
+#here {
 	width:400px;
 	height:165px;
 	background-color:#cfc;
@@ -54,7 +54,7 @@
 	left:400px;
 }
 
-#here {
+#now {
 	width:624px;
 	height:165px;
 	background-color:#ffc;
